@@ -13,6 +13,7 @@ body {
 }
 
 .titulo {
+    margin: 20px;
     border: 2px solid white;
     box-shadow: inset 0 0 15px palevioletred, 0 0 20px palevioletred;
     border-radius: 60px;
