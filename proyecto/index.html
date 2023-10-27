@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calcular el Punto de Equilibrio</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="titulo">
+      <h1>*. Calcular el Punto de Equilibrio .*</h1>
+    </div>
+    <div>
+        <label for="precioVenta">Precio por Unidad:</label>
+        <input type="number" id="precioVenta">
+    </div>
+    <div>
+        <label for="costosVariables">Costos Variables por Unidad:</label>
+        <input type="number" id="costosVariables">
+    </div>
+    <div>
+        <label for="costosFijos">Costos Fijos Totales:</label>
+        <input type="number" id="costosFijos">
+    </div>
+    <button onclick="calcularPuntoEquilibrio()">Calcular Punto de Equilibrio</button>
+    <p id="puntoEquilibrio"></p>
+    <div id="grafico" style="width: 600px; height: 400px;"></div>
+
+    <button class="btn2"><a href="../caratula.html">Click para Regresar</a></button>
+
+    
+    <script src="app.js">
+    </script>
+</body>
+</html>

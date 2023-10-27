@@ -1,0 +1,84 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(https://i.gifer.com/76YS.gif);
+    background-size: cover;
+}
+
+.principal {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'DM Serif Display', serif;
+}
+ .principal h1 {
+    text-shadow: 0 0 5px white, 0 0 15px white, 0 0 30px white;;
+ }
+ .principal h2 {
+    text-shadow: 0 0 5px white, 0 0 15px white, 0 0 30px white;;
+ }
+
+.u {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    width: 30%;
+}
+
+img {
+    width: 100%;
+}
+
+.creador {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 25px;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Kalam', cursive;
+}
+
+.cont {
+    display: flex;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.btn {
+    width: 100px;
+    margin-top: 30px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 0 0 5px palevioletred, 0 0 15px palevioletred,  0 0 30px palevioletred;
+}
+
+.btn:hover {
+    background-color: white;
+    transition: ease-in .3s;
+    box-shadow: 0 0 5px white, 0 0 15px white, 0 0 30px white;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: black;
+    transition: ease-in .3s;
+}

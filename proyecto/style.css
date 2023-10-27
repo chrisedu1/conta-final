@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100hw;
+    background-image: url(https://wallpaperaccess.com/full/3492868.gif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    border: 2px solid white;
+    box-shadow: inset 0 0 15px palevioletred, 0 0 20px palevioletred;
+    border-radius: 60px;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-shadow: 0 0 5px purple, 0 0 15px purple, 0 0 30px purple, 0 0 50px purple;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+label {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Righteous', sans-serif;
+}
+
+input {
+    width: 20vw;
+    height: 3vh;
+    margin: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    border-style: none;
+    text-align: center;
+    color: #fff;
+}
+
+input:hover {
+    box-shadow: 0 0 15px pink;
+    background-color: purple;
+}
+
+button {
+    width: 20vw;
+    height: 5vh;
+    margin: 20px;
+    color: #fff;
+    background-color: blueviolet;
+    border-radius: 15px;
+    border-style: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: crimson;
+    transition: ease-in .3s;
+}
+
+p {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#grafico {
+    border-radius: 15px;
+}
+
+.btn2 {
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 0 0 5px palevioletred, 0 0 15px palevioletred,  0 0 30px palevioletred;
+}
+
+.btn2:hover {
+    background-color: white;
+    transition: ease-in .3s;
+    box-shadow: 0 0 5px white, 0 0 15px white, 0 0 30px white;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: black;
+    transition: ease-in .3s;
+}
